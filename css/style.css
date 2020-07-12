@@ -1,0 +1,589 @@
+@font-face{
+	src: url(../fonts/BrandonGrotesque-Regular.ttf);
+	font-family: BrandonGrotesque-Regular;
+}
+@font-face{
+	src: url(../fonts/BrandonGrotesque-Light.ttf);
+	font-family: BrandonGrotesque-Light;
+}
+@font-face{
+	src: url(../fonts/BrandonGrotesque-Bold.ttf);
+	font-family: BrandonGrotesque-Bold;
+}
+@font-face{
+	src: url(../fonts/BrandonGrotesque-Medium.ttf);
+	font-family: BrandonGrotesque-Medium;
+}
+@font-face{
+	src: url(../fonts/Cubano.ttf);
+	font-family: Cubano.ttf;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: BrandonGrotesque-Regular;
+}
+/*header and content start*/
+.background_image{
+	background-image: url(../images/escape.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/*header start*/
+header{
+	/*border: 1px solid black;*/
+	padding: 40px 0;
+}
+.wrapper{
+	/*order: 1px solid red;*/
+	overflow: hidden;
+	width: 67%;
+	margin: 0 auto;
+}
+.logo{
+	width: 15%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	/*border: 1px solid red;*/
+	margin-top: 4px;
+	width: 50%;
+	float: right;
+}
+.menu ul{
+	margin: 0;
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 15px;
+	font-family: BrandonGrotesque-Medium; 
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	transition: 0.3s;
+	border: 1px solid transparent;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid white;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+/*h_content start*/
+.h_content{
+	padding: 120px 0;
+	text-align: center;
+}
+.h_content p{
+	margin: 0;
+	font-family: BrandonGrotesque-Light;
+	font-size: 32px;
+	color: white;
+}
+.h_content h1{
+	margin-top: 50px;
+	margin-bottom: 85px;
+	font-family: BrandonGrotesque-bold;
+	font-size: 66px;
+	color: white;
+	text-transform: uppercase;
+}
+.h_content button{
+	width: 240px;
+    height: 65px;
+    font-family: BrandonGrotesque-bold;
+    font-size: 23px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.h_content button:hover{
+	color: #222222;
+}
+.h_content button:focus{
+	outline: 0;
+}
+/*h_content end*/
+/*header and content end*/
+/*web development start*/
+.web_development{
+	padding: 100px 0;
+	overflow: hidden;
+}
+.wrapper2{
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	width: 62%;
+	margin: 0 auto;
+}
+.wd_content{
+	/*border: 1px solid red;*/
+	width: 64%;
+	float: left;
+}
+.wd_content h1{
+	/*border: 1px solid red;*/
+	margin-top: 0;
+	margin-bottom: 40px;
+	font-family: BrandonGrotesque-Light;
+	font-size: 60px;
+	font-weight: 300;
+	color: #222222;
+}
+.wd_content h1 span{
+	font-family: BrandonGrotesque-bold;
+}
+.wd_content p{
+	/*border: 1px solid red;*/
+	margin: 40px 0;
+	color: #777777;
+}
+.wd_logo{
+	/*border: 1px solid red;*/
+	margin-top: 40px;
+	width: 30%;
+	float: right;
+}
+.wd_logo img{
+	width: 100%;
+}
+/*web development end*/
+/*identity branding start*/
+.identity_branding{
+	padding: 100px 0;
+	background-color: #fafafa;
+	overflow: hidden;
+}
+.ib_logo{
+	/*border: 1px solid red;*/
+	margin-top: 40px;
+	width: 30%;
+	float: left;
+}
+.ib_logo img{
+	width: 100%;
+}
+.ib_content{
+	/*border: 1px solid red;*/
+	width: 64%;
+	float: right;
+}
+.ib_content h1{
+	/*border: 1px solid red;*/
+	margin-top: 0;
+	margin-bottom: 40px;
+	font-family: BrandonGrotesque-Light;
+	font-size: 60px;
+	font-weight: 300;
+	color: #222222;
+}
+.ib_content h1 span{
+	font-family: BrandonGrotesque-bold;
+}
+.ib_content p{
+	/*border: 1px solid red;*/
+	margin: 40px 0;
+	color: #777777;
+}
+/*identity branding end*/
+/*skills start*/
+.skill{
+	padding: 100px 0;
+}
+/*single start*/
+.single{
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	margin-bottom: 50px;
+	width: 45%;
+	float: left;
+}
+.single_logo{
+	/*border: 1px solid red;*/
+	width: 22%;
+	float: left;
+}
+.single_logo img{
+	width: 100%;
+}
+.single_content{
+	/*border: 1px solid red;*/
+	width: 73%;
+	float: right;
+}
+.single_content h2{
+	margin: 0;
+	font-family: BrandonGrotesque-Medium;
+	font-size: 22px;
+	font-weight: 500;
+	color: #222222;
+}
+.single_content p{
+	margin: 10px 0;
+}
+/*single end*/
+.single:nth-child(even) {
+	margin-left: 10%;
+}
+/*skills end*/
+/*clients start*/
+.client{
+	padding: 100px 0;
+	background-color: #fafafa;
+}
+.sec_title{
+	text-align: center;
+}
+.sec_title h1{
+	margin: 0;
+	font-family: BrandonGrotesque-Light;
+	font-size: 60px;
+	font-weight: 300;
+	color: #222222;
+}
+.sec_title h1 span{
+	font-family: BrandonGrotesque-bold;
+}
+.sec_title p{
+	margin: 0;
+	font-size: 22px;
+	color: #777777;
+}
+/*Client content start*/
+.client_content{
+	/*border: 1px solid red;*/
+	margin-top: 50px;
+	overflow: hidden;
+}
+.client_logo{
+	/*border: 1px solid red;*/
+	width: 25%;
+	float: left;
+}
+.client_logo img{
+	width: 100%;
+}
+.client_comment{
+	/*border: 1px solid red;*/
+	float: right;
+}
+.client_comment p{
+	margin: 30px 40px;
+	font-size: 26px;
+	color: #777777;
+}
+.client_comment p span{ 
+	font-size: 20px;
+	font-weight: 400;
+	color: #7690c5;
+}
+#talkbubble {
+	margin: 30px 0px 0px 15px;
+    width: 640px;
+    height: 175px;
+    background: #ffffff;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 3px;
+    border: 2px solid #f1f1f1;
+  }
+#talkbubble:before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      top: 75px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-right: 26px solid #ffffff;
+      border-bottom: 13px solid transparent;
+    }
+/*Client content start*/
+/*Client content start*/
+.client_logo_last{
+	/*border: 1px solid red;*/
+	width: 25%;
+	float: right;
+}
+.client_logo_last img{
+	width: 100%;
+}
+.client_comment_last{
+	/*border: 1px solid red;*/
+	float: left;
+}
+.client_comment_last p{
+	margin: 30px 40px;
+	font-size: 26px;
+	color: #777777;
+}
+.client_comment_last p span{ 
+	font-size: 20px;
+	font-weight: 400;
+	color: #7690c5;
+}
+#talkbubble2 {
+	margin: 30px 0px 0px 15px;
+    width: 640px;
+    height: 175px;
+    background: #ffffff;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 3px;
+    border: 2px solid #f1f1f1;
+  }
+#talkbubble2:before {
+      content: "";
+      position: absolute;
+      left: 100%;
+      top: 75px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-left: 26px solid #ffffff;
+      border-bottom: 13px solid transparent;
+    }
+/*Client content start*/
+/*clients end*/
+/*sponsor start*/
+.sponsor{
+	margin: 60px 0;
+}
+.wrapper3{
+	/*border: 1px solid red;*/
+	width: 60%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.all_sponsor_image{
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.all_sponsor_image img{
+	margin: 0 20px;
+	float: left;
+}
+.all_sponsor_image :last-child img{
+	margin-right: 0;
+}
+/*sponsor end*/
+/*team start*/
+.team{
+	padding: 100px 0;
+	background-color: #111111;
+	overflow: hidden;
+}
+.team_title{
+	text-align: center;
+}
+.team_title h1{
+	margin: 0;
+	font-family: BrandonGrotesque-Light;
+	font-size: 60px;
+	font-weight: 300;
+	color: #ffffff;
+}
+.team_title h1 span{
+	font-family: BrandonGrotesque-bold;
+}
+.team_title p{
+	margin: 0;
+	font-size: 22px;
+	color: #777777;
+}
+.team_member{
+	overflow: hidden;
+}
+/*single member start*/
+.single_member{
+	margin-right: 5%;
+	padding: 75px 0 50px 0;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+	width: 30%;
+	float: left;
+}
+.single_member:last-child{
+	margin-right: 0;
+}
+.circle{
+	/*border: 1px solid red;*/
+	width: 100%;
+}
+.circle img{
+	width: 100%;
+}
+.name{
+	/*border: 1px solid red;*/
+	text-align: center;
+}
+.name p{
+	margin: 0;
+	font-family: BrandonGrotesque-bold;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 23px;
+}
+.name p span{
+	font-family: BrandonGrotesque-Regular;
+	font-weight: 300;	
+}
+.social_link{
+	/*border: 1px solid red;*/
+	padding: 10px 40px 0 40px;
+	overflow: hidden;
+}
+.social_link img{
+	margin: 0 5px;
+	float: left;
+}
+.social_link_last{
+	/*border: 1px solid red;*/
+	padding: 10px 40px 0 70px;
+	overflow: hidden;
+}
+.social_link_last img{
+	margin: 0 5px;
+	float: left;
+}
+/*single member end*/
+.team_footer{
+	text-align: center;
+}
+.team_footer p{
+	padding: 0px 62px;
+	font-size: 20px;
+	color: #ebebeb;
+}
+/*team end*/
+/*contact start*/
+.contact{
+	/*border: 1px solid red;*/
+	background-color: #7690c5;
+	padding: 100px 0;
+	overflow: hidden;
+}
+.contact_info{
+	width: 45%;
+	float: left;
+}
+.hello{
+	/*border: 1px solid red;*/
+}
+.hello h1{
+	margin: 0;
+	font-family: BrandonGrotesque-Light;
+	font-size: 60px;
+	font-weight: 300;
+	color: #ffffff;
+}
+.hello h1 span{
+	font-family: BrandonGrotesque-bold;
+	font-weight: 700;
+}
+.hello p{
+	margin: 0;
+	color:#ffffff;
+}
+.social_info{
+	/*border: 1px solid red;*/
+	margin-top: 50px;
+	overflow: hidden;
+}
+.single_info{
+	margin-right: 10%;
+	/*border: 1px solid red;*/
+	width: 45%;
+	overflow: hidden;
+	padding: 20px 0;
+	float: left;
+}
+.single_info:nth-child(even) {
+	margin-right: 0%;
+}
+.communication{
+	width: 10%;
+	float: left;
+}
+.communication img{
+	width: 100%;
+}
+.communication_medium{
+	padding-right: 22px;
+	width: 70%;
+	float: right;
+}
+.communication_medium a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.output_form{
+	/*border: 1px solid red;*/
+	width: 45%;
+	float: right;
+}
+.output_form input{
+	width: 95%;
+  	margin-bottom: 30px;
+  	padding: 15px 10px;
+  	display: inline-block;
+  	font-family: BrandonGrotesque-Medium;
+  	font-size: 16px;
+  	color: #bbbbbb;
+  	border: 0;
+  	border-radius: 3px;
+}
+.output_form input:focus{
+	outline: 0;
+}
+.output_form textarea {
+  width: 95%;
+  padding: 15px 10px 80px 10px;
+  display: inline-block;
+  font-family: BrandonGrotesque-Medium;
+  font-size: 16px;
+  color: #bbbbbb;
+  border: 0;
+  border-radius: 3px;
+}
+.output_form textarea:focus{
+	outline: 0;
+}
+/*contact end*/
+/*footer start*/
+footer{
+	background-color: #7690c5;
+}
+.wrapper_footer{
+	width: 65%;
+	margin: 0 auto;
+	border-top: 1px solid #87a0d2;
+}
+.footer_content{
+	padding: 30px 0;
+}
+.footer_content p{
+	margin: 0;
+	font-family: BrandonGrotesque-Regular;
+	font-weight: 500;
+	color: #ffffff;
+	text-align: center;
+}
+/*footer end*/
